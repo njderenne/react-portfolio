@@ -4,8 +4,8 @@ import Nav from '../Nav';
 function Header() {
     return (
         <section>
+            <h1>Nate Derenne</h1>
             <Nav></Nav>
-            <h1>First Load</h1>
         </section>
     );
 }

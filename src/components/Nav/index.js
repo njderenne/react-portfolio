@@ -3,7 +3,12 @@ import React from 'react';
 function Nav() {
 
     return (
-        <p>hello</p>
+        <ul>
+            <li>About Me</li>
+            <li>Projects</li>
+            <li>Contact Me</li>
+            <li>Resume</li>
+        </ul>
     );
 }
 
