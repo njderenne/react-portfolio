@@ -81,9 +81,9 @@ code {
 }
 
 .fa {
-  padding: 8px;
+  padding: 10px;
   font-size: 25px;
-  width: 20px;
+  width: 17px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -213,7 +213,7 @@ input, textarea {
   box-sizing: border-box;
 }
 
-button {
+.submit-button {
   width: 100%;
   background-color: purple;
   color: #fff;
@@ -222,4 +222,14 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+footer {
+  margin-top: 8vh;
+}
+
+.footer {
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  background-color: rgb(56, 56, 56);
 }
