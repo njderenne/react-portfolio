@@ -30,9 +30,9 @@ code {
 }
 
 .nav-bar {
-  background-color: rgb(77, 77, 77);
-  padding-top: 10px;
-  padding-bottom: 10px;
+  background-color: rgb(56, 56, 56);
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-top: 0px;
 }
 
@@ -57,6 +57,7 @@ code {
   border-width: 0 4px 4px 0;
   display: inline-block;
   padding: 8px;
+  margin-top: -2px;
 }
 
 .down {
@@ -68,16 +69,24 @@ code {
   background-color: rgba(0, 0, 0, 0);
   border: none;
   margin-left: 50%;
-  margin-top: 45vh;
+  margin-top: 40vh;
 }
 
-/* .fa {
+.arrow-outline {
+  background-color: rgba(255, 255, 255, 0.26);
+  padding: 10px;
+  padding-bottom: 13px;
+  border-radius: 20px;
+}
+
+.fa {
   padding: 8px;
   font-size: 25px;
-  width: 40px;
+  width: 20px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+  margin-right: 10px;
 }
 
 .fa:hover {
@@ -92,4 +101,8 @@ code {
 .fa-github {
   background: #24292e;
   color: white;
-} */
+}
+
+.socials {
+  padding-top: 3vh;
+}
