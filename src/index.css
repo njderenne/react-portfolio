@@ -195,3 +195,31 @@ code {
   grid-row: 2;
   grid-column: 3;
 }
+
+#contact-form {
+  align-items: center;
+  color: #fff;
+  width: 50vw;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  background-color: purple;
+  color: #fff;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
