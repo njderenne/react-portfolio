@@ -265,9 +265,15 @@ footer {
 }
 
 .modalTitle {
-	font-size: 28px;
+	font-size: 32px;
 	font-weight: 600;
-  margin-bottom: 25px;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  color: #fff;
+  text-align: center;
+}
+
+.modal-tech {
   color: #fff;
   text-align: center;
 }
@@ -281,4 +287,27 @@ footer {
 .modal-description {
   color: #fff;
   margin: 3vh 8%;
+}
+
+.modal-link {
+  background-color: purple;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin-left: 8%;
+  text-decoration: none;
+}
+
+.live-app {
+  margin-left: 10%;
+}
+
+.modal-button {
+  float: right;
+  margin-right: 8%;
+  background-color: red;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 10px;
 }
