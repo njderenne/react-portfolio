@@ -1,24 +1,24 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
-function Nav() {
+function Nav(props) {
+
+    const {
+        categories = [],
+        setCurrentCategory,
+        currentCategory,
+    } = props
+
+    useEffect(() => {
+        document.title = currentCategory.name;
+    }, [currentCategory]);
 
     return (
         <ul className='flex-row nav-bar'>
-            <li className='mx-2 none'>
-                <a data-testid='about' href='#about' className='none nav'>
-                    About
-                </a>
-            </li>
-            <li className='mx-2 none'>
-                <a data-testid='projects' href='#projects' className='none nav'>
-                    Projects
-                </a>
-            </li>
-            <li className='mx-2 none'>
-                <a data-testid='contact' href='#contact' className='none nav'>
-                    Contact
-                </a>
-            </li>
+            {categories.map((category) => (
+                <li className={`mx-2 none nav ${currentCategory.name === category.name && 'navActive'}`} key={category.name}>
+                    <span onClick={() => {setCurrentCategory(category)}}>{category.name}</span>
+                </li>
+            ))}
             <li className='mx-2 none'>
                 <a data-testid='resume' href='#resume' className='none nav'>
                     Resume
