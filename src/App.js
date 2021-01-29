@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
-import Header from './components/Header';
 import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/Contact';
@@ -28,7 +27,6 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   const renderPage = () => {
-    console.log(currentCategory);
     switch(currentCategory.name) {
       case 'Home':
         return <div>

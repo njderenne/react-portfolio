@@ -242,3 +242,43 @@ footer {
 .navActive {
   color: #007bb5;
 }
+
+.modalBackdrop {
+	background: rgba(0, 0, 0, .65);
+	bottom: 0;
+	left: 0;
+	overflow: auto;
+	position: fixed;
+	right: 0;
+	top: 0;
+  z-index: 1;
+}
+
+.modalContainer {
+	background: #111111;
+	border-radius: 5px;
+  max-width: 100%;
+  padding: 15px;
+  width: 75%;
+  margin: auto;
+  margin-top: 5vh;
+}
+
+.modalTitle {
+	font-size: 28px;
+	font-weight: 600;
+  margin-bottom: 25px;
+  color: #fff;
+  text-align: center;
+}
+
+.modal-img {
+  object-fit: fill;
+  width: 80%;
+  margin: auto 10%;
+}
+
+.modal-description {
+  color: #fff;
+  margin: 3vh 8%;
+}
