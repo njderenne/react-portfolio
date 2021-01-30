@@ -50,7 +50,20 @@ code {
 }
 
 .hero-container {
-  padding-top: 30vh;
+  padding-top: 25vh;
+}
+
+.hero-section {
+  margin-left: 25vw;
+}
+
+.hero-text {
+  font-size: 18px;
+}
+
+.hero-name {
+  font-size: 48px;
+  margin-left: -3vw;
 }
 
 .vertical-center {
@@ -75,7 +88,7 @@ code {
   background-color: rgba(0, 0, 0, 0);
   border: none;
   margin-left: 50%;
-  margin-top: 40vh;
+  margin-top: 35vh;
 }
 
 .arrow-outline {

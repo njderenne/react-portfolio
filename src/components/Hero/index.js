@@ -17,9 +17,9 @@ function Hero(props) {
                 currentCategory={currentCategory}
             ></Nav>
             <div className='hero-container'>
-                <div className='vertical-center'>
-                    <span className='flex-row'>Hi, my name is<h1 className='flex-row'>Nate Derenne</h1></span>
-                    <span className='flex-row'>I am a web developer from Green Bay, WI and currently living in Sun Prairie, WI.</span>
+                <div className='vertical-center hero-section'>
+                    <span className='hero-text'>Hi, my name is<h1 className='hero-name'>Nate Derenne</h1></span>
+                    <span className='hero-text'>I am a web developer from Green Bay, WI and currently living in Sun Prairie, WI.</span>
                 </div>
                 <div className='flex-row socials'>
                     <a href="https://github.com/njderenne" className="fa fa-github"></a>
