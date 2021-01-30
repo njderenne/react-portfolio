@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import pdf from '../../assests/files/Nathan_Derenne.pdf';
 
 function Nav(props) {
 
@@ -20,7 +21,7 @@ function Nav(props) {
                 </li>
             ))}
             <li className='mx-2 none nav-link'>
-                <a data-testid='resume' href='#resume' target='_blank' download='Nathan_Derenne_Resume' className='none nav'>
+                <a data-testid='resume' href={pdf} target='_blank' download='Nathan_Derenne_Resume' className='none nav'>
                     Resume
                 </a>
             </li>
