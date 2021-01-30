@@ -4,7 +4,7 @@ function About() {
 
     return (
         <section>
-            <h2 className='section-title'>About</h2>
+            <h2 className='section-title' id='about'>About</h2>
             <div className='about-container'>
                 <img src={require('../../assests/headshot-1.jpg').default} alt='Nate Derenne' className='portrait'></img>
                 <div className='about-text'>

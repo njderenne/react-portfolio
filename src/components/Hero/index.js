@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import Nav from '../Nav';
 
 function Hero(props) {
@@ -10,7 +11,7 @@ function Hero(props) {
     } = props
 
     return (
-        <header className='hero'>
+        <header className='hero' id='hero'>
             <Nav
                 categories={categories}
                 setCurrentCategory={setCurrentCategory}
@@ -25,7 +26,15 @@ function Hero(props) {
                     <a href="https://github.com/njderenne" className="fa fa-github"></a>
                     <a href="https://www.linkedin.com/in/nathan-derenne-1939801b3/" className="fa fa-linkedin"></a>
                 </div>
-                <button className='flex-row no-background arrow-outline'><i className='arrow down'></i></button>
+                <Link
+                    activeClass='active'
+                    to='about'
+                    spy={true}
+                    smooth={true}
+                    offset={-60}
+                    duration={500}
+                    className='flex-row arrow-outline scroll-about'
+                ><i className='arrow down'></i></Link>
             </div>
         </header>
     );

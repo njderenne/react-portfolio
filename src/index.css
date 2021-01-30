@@ -84,11 +84,9 @@ code {
   -webkit-transform: rotate(45deg);
 }
 
-.no-background {
-  background-color: rgba(0, 0, 0, 0);
-  border: none;
-  margin-left: 50%;
-  margin-top: 35vh;
+.up {
+  transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
 }
 
 .arrow-outline {
@@ -96,6 +94,13 @@ code {
   padding: 10px;
   padding-bottom: 13px;
   border-radius: 20px;
+}
+
+.scroll-about {
+  margin: auto;
+  width: 23px;
+  margin-top: 35vh;
+  cursor: pointer;
 }
 
 .fa {
@@ -278,6 +283,15 @@ input, textarea {
   margin: 8px 0;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.scroll-top {
+  margin: auto;
+  width: 23px;
+  margin-top: 6vh;
+  padding-top: 16px;
+  padding-bottom: 6px;
   cursor: pointer;
 }
 

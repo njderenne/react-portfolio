@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -35,9 +36,18 @@ function App() {
               setCurrentCategory={setCurrentCategory}
               currentCategory={currentCategory}
             />
-            <About />
+            <About/>
             <Project />
             <Contact />
+            <Link
+                    activeClass='active'
+                    to='hero'
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={1000}
+                    className='flex-row arrow-outline scroll-top'
+                ><i className='arrow up'></i></Link>
             <Footer />
           </div>
       case 'About':
