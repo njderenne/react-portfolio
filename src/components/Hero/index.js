@@ -31,7 +31,7 @@ function Hero(props) {
                     to='about'
                     spy={true}
                     smooth={true}
-                    offset={-75}
+                    offset={-135}
                     duration={500}
                     className='flex-row arrow-outline scroll-about'
                 ><i className='arrow down'></i></Link>
