@@ -19,7 +19,7 @@ function Nav(props) {
                     <span onClick={() => {setCurrentCategory(category)}}>{category.name}</span>
                 </li>
             ))}
-            <li className='mx-2 none'>
+            <li className='mx-2 none nav-link'>
                 <a data-testid='resume' href='#resume' target='_blank' download='Nathan_Derenne_Resume' className='none nav'>
                     Resume
                 </a>

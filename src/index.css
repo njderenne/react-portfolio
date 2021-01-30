@@ -175,11 +175,12 @@ code {
 }
 
 .portrait {
-  height: 50vh;
+  width: 30vh;
   margin-left: 10vw;
-  margin-top: 8vh;
+  margin-top: 25%;
   display: grid;
   grid-column: 1;
+  vertical-align: center;
 }
 
 .about-text {
@@ -202,6 +203,7 @@ code {
   grid-template-rows: 2(1fr);
   margin-left: 10vw;
   margin-right: 10vw;
+  overflow: hidden;
 }
 
 .project {
@@ -423,4 +425,185 @@ input, textarea {
 
 .modal-button:hover {
   background-color: rgb(255, 78, 78);
+}
+
+@media screen and (max-width: 1024px) {
+  .about-container {
+    display: grid;
+    margin-bottom: 10vh;
+  }
+  
+  .portrait {
+    width: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    display: grid;
+    grid-row: 1;
+    grid-column: 1/span 2;
+    vertical-align: center;
+  }
+  
+  .about-text {
+    color: #fff;
+    display: grid;
+    grid-row: 2;
+    grid-column: 1/span 2;
+    margin-top: 10vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+  }
+}
+@media screen and (max-width: 899px){
+  .scroll-about {
+    margin: auto;
+    width: 23px;
+    margin-top: 30vh;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .hero-section {
+    margin-left: 20vw;
+  }
+
+  .portrait {
+    width: 45vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    display: grid;
+    grid-row: 1;
+    grid-column: 1/span 2;
+    vertical-align: center;
+  }
+}
+
+@media screen and (max-width: 670px){
+  .mx-2 {
+    margin-left: calc(1rem);
+    margin-right: calc(1rem);
+  }
+
+  #contact-form {
+    align-items: center;
+    color: #fff;
+    width: 65vw;
+    margin: auto;
+    margin-top: 8vh;
+  }
+}
+
+@media screen and (max-width: 615px){
+
+  .project-image {
+    width: 70vw;
+    margin: auto;
+  }
+
+  .project-1 {
+    grid-row: 1;
+    grid-column: 1/span 3;
+  }
+  
+  .project-2 {
+    grid-row: 2;
+    grid-column: 1/span 3;
+  }
+  
+  .project-3 {
+    grid-row: 3;
+    grid-column: 1/span 3;
+  }
+  
+  .project-4 {
+    grid-row: 4;
+    grid-column: 1/span 3;
+  }
+  
+  .project-5 {
+    grid-row: 5;
+    grid-column: 1/span 3;
+  }
+  
+  .project-6 {
+    grid-row: 6;
+    grid-column: 1/span 3;
+  }
+}
+
+@media screen and (max-width: 510px){
+  .portrait {
+    width: 35vh;
+  }
+
+  /* nav bar changes */
+  .nav-bar {
+    background-color: rgb(56, 56, 56);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-left: -15%;
+  }
+  
+  .nav {
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 0px;
+  }
+
+  .nav-link {
+    margin: 0px;
+    margin-left: 5%;
+  }
+
+  .portrait {
+    width: 30vh;
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width: 415px){
+  .nav-bar {
+    background-color: rgb(56, 56, 56);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+  
+  .nav {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+
+  .nav-link {
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+
+  .hero-section {
+    margin-left: 10vw;
+  }
+
+  .scroll-about {
+    margin: auto;
+    width: 23px;
+    margin-top: 28vh;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 365px){
+  .scroll-about {
+    margin: auto;
+    width: 23px;
+    margin-top: 21vh;
+    cursor: pointer;
+  }
 }
