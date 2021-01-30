@@ -19,7 +19,7 @@ function Hero(props) {
             ></Nav>
             <div className='hero-container'>
                 <div className='vertical-center hero-section'>
-                    <span className='hero-text'>Hi, my name is<h1 className='hero-name'>Nate Derenne</h1></span>
+                    <span className='hero-hi'>Hi, my name is<h1 className='hero-name'>Nate Derenne</h1></span>
                     <span className='hero-text'>I am a web developer from Green Bay, WI and currently living in Sun Prairie, WI.</span>
                 </div>
                 <div className='flex-row socials'>
@@ -31,7 +31,7 @@ function Hero(props) {
                     to='about'
                     spy={true}
                     smooth={true}
-                    offset={-60}
+                    offset={-75}
                     duration={500}
                     className='flex-row arrow-outline scroll-about'
                 ><i className='arrow down'></i></Link>

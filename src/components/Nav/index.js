@@ -20,7 +20,7 @@ function Nav(props) {
                 </li>
             ))}
             <li className='mx-2 none'>
-                <a data-testid='resume' href='#resume' className='none nav'>
+                <a data-testid='resume' href='#resume' target='_blank' download='Nathan_Derenne_Resume' className='none nav'>
                     Resume
                 </a>
             </li>
