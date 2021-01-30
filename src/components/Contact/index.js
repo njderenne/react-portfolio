@@ -3,7 +3,7 @@ import React from 'react';
 function Contact() {
 
     return (
-        <section>
+        <section className='min-height'>
             <h2 className='section-title'>Contact</h2>
             <form id='contact-form'>
                 <div>

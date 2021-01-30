@@ -13,6 +13,10 @@ code {
     monospace;
 }
 
+.min-height {
+  min-height: 67vh;
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
@@ -104,8 +108,8 @@ code {
 }
 
 .fa {
-  padding: 10px;
-  font-size: 25px;
+  padding: 15px;
+  font-size: 100px;
   width: 17px;
   text-align: center;
   text-decoration: none;
@@ -115,6 +119,9 @@ code {
 
 .fa:hover {
   opacity: 0.7;
+  border: 2px solid #fff;
+  padding: 11px;
+  width: 19px;
 }
 
 .fa-linkedin {
@@ -289,17 +296,17 @@ input, textarea {
 .scroll-top {
   margin: auto;
   width: 23px;
-  margin-top: 6vh;
+  margin-top: 0vh;
   padding-top: 16px;
   padding-bottom: 6px;
   cursor: pointer;
 }
 
-footer {
-  margin-top: 8vh;
-}
-
 .footer {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  margin-top: 8vh;
   padding-bottom: 2vh;
   padding-top: 2vh;
   background-color: rgb(56, 56, 56);
