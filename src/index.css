@@ -177,11 +177,50 @@ code {
   padding: 10px;
   color: #fff;
   justify-content: center;
+  overflow: hidden;
 }
+
+/* working on hover effect for project (includes overflow:hidden from above */
+
+.project-name {
+  position: relative;
+  z-index: 2;
+  font-size: 28px;
+  margin-bottom: 0px;
+  margin-top: 2px;
+  top: 200px;
+}
+
+.project-tech {
+  position: relative;
+  z-index: 2;
+  font-size: 18px;
+  top: 200px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.project:hover .project-image::after {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.project:hover .project-name, .project:hover .project-tech {
+  top: 0;
+  transition: 0.6s;
+}
+
+.project:hover .project-tech {
+  transition-delay: 0.2s;
+}
+
+/* end of hover effect styling */
+
 
 .project-image {
   width: 25vw;
   object-fit: fill;
+  cursor: pointer;
 }
 
 .project-1 {

@@ -79,6 +79,8 @@ function Project() {
                             onClick={() => toggleModal(project, i)}
                             key={project.title}
                         />
+                        <h3 className='project-name'>{project.title}</h3>
+                        <h4 className='project-tech'>{project.technology}</h4>
                     </div>
                 ))}
             </div>

@@ -17,7 +17,7 @@ function Modal({ onClose, currentProject }) {
                 <a href={github} target="_blank" className='modal-link github'>GitHub</a>
                 <a href={application} target="_blank" className='modal-link live-app'>Live App</a>
                 <button onClick={onClose} type="button" className='modal-button'>
-                    Close this modal
+                    Close
                 </button>
             </div>
         </div>
