@@ -386,8 +386,8 @@ input, textarea {
 
 .modal-img {
   object-fit: fill;
-  width: 80%;
-  margin: auto 10%;
+  width: 50%;
+  margin: auto 25%;
 }
 
 .modal-description {
@@ -427,6 +427,23 @@ input, textarea {
   background-color: rgb(255, 78, 78);
 }
 
+@media screen and (min-width: 1350px){
+  .about-container {
+    margin-bottom: 14vh;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .portrait {
+    width: 25vw;
+    margin-left: 10vw;
+    margin-top: 15%;
+    display: grid;
+    grid-column: 1;
+    vertical-align: center;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .about-container {
     display: grid;
@@ -452,6 +469,12 @@ input, textarea {
     margin-top: 10vh;
     margin-left: 8vw;
     margin-right: 8vw;
+  }
+
+  .modal-img {
+    object-fit: fill;
+    width: 60%;
+    margin: auto 20%;
   }
 }
 @media screen and (max-width: 899px){
@@ -596,6 +619,44 @@ input, textarea {
     width: 23px;
     margin-top: 28vh;
     cursor: pointer;
+  }
+
+  .modalContainer {
+    border-radius: 5px;
+    max-width: 100%;
+    padding: 15px;
+    width: 75%;
+    margin: auto;
+    margin-top: 5vh;
+  }
+  
+  .modalTitle {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    text-align: center;
+  }
+  
+  .modal-description {
+    margin: 3vh 8%;
+  }
+  
+  .modal-link {
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-left: 3%;
+  }
+  
+  .live-app {
+    margin-left: 6%;
+  }
+  
+  .modal-button {
+    float: right;
+    margin-right: 5%;
+    border-radius: 8px;
+    padding: 8px 10px;
   }
 }
 
