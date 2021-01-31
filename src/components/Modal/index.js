@@ -14,11 +14,13 @@ function Modal({ onClose, currentProject }) {
                 <p className='modal-description'>
                     {description}
                 </p>
-                <a href={github} target="_blank" className='modal-link github'>GitHub</a>
-                <a href={application} target="_blank" className='modal-link live-app'>Live App</a>
-                <button onClick={onClose} type="button" className='modal-button'>
-                    Close
-                </button>
+                <div className='button-container'>
+                    <a href={github} target="_blank" className='modal-link github'>GitHub</a>
+                    <a href={application} target="_blank" className='modal-link live-app'>Live App</a>
+                    <button onClick={onClose} type="button" className='modal-button'>
+                        Close
+                    </button>
+                </div>
             </div>
         </div>
 
