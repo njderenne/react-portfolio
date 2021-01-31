@@ -20,7 +20,7 @@ function Contact() {
                 </div>
                 <button type='submit' className='submit-button'>Submit</button>
             </form>
-            <p className='email-me'>or feel free to reach via my email: <span className='email-me'>njderenne@gmail.com</span></p>
+            <p className='email-me'>or feel free to reach via my email: <span className='email-me'><a className='open-email' href='mailto:njderenne@gmail.com' target='_blank' rel='noopener noreferrer'>njderenne@gmail.com</a></span></p>
         </section>
     );
 };

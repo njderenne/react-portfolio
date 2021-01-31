@@ -326,6 +326,10 @@ input, textarea {
   padding-top: 2vh;
 }
 
+.open-email {
+  color: var(--secondary-color);
+}
+
 .scroll-top {
   margin: auto;
   width: 23px;
