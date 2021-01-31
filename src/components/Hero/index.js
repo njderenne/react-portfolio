@@ -1,5 +1,7 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Link } from 'react-scroll';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import Nav from '../Nav';
 
 function Hero(props) {
@@ -10,6 +12,10 @@ function Hero(props) {
         currentCategory,
     } = props
 
+    useEffect(() => {
+        Aos.init({duration: 1000 });
+    })
+
     return (
         <header className='hero' id='hero'>
             <Nav
@@ -19,8 +25,8 @@ function Hero(props) {
             ></Nav>
             <div className='hero-container'>
                 <div className='vertical-center hero-section'>
-                    <span className='hero-hi'>Hi, my name is<h1 className='hero-name'>Nate Derenne</h1></span>
-                    <span className='hero-text'>I am a web developer from Green Bay, WI and currently living in Sun Prairie, WI.</span>
+                    <span data-aos='fade-right' className='hero-hi'>Hi, my name is<h1 data-aos='fade-left' className='hero-name'>Nate Derenne</h1></span>
+                    <span className='hero-text' data-aos='fade-right'>I am a web developer from Green Bay, WI and currently living in Sun Prairie, WI.</span>
                 </div>
                 <div className='flex-row socials'>
                     <a href="https://github.com/njderenne" className="fa fa-github"></a>
