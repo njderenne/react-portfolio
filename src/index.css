@@ -320,6 +320,12 @@ input, textarea {
   background-color: var(--secondary-color);
 }
 
+.email-me {
+  color: #fff;
+  text-align: center;
+  padding-top: 2vh;
+}
+
 .scroll-top {
   margin: auto;
   width: 23px;
