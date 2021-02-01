@@ -83,13 +83,13 @@ function Project() {
             <h2 className='section-title'>Projects</h2>
             <div className='project-container'>
                 {projects.map((project, i) => (
-                    <div data-aos={project.animation} className={`project project-${i+1}`}>
+                    <div data-aos={project.animation} className={`project project-${i+1}`} key={project.title}>
                         <img 
                             src={require(`../../assests/screenshots/${project.locations}`).default} 
                             className='project-image'
-                            alt={projects.title}
+                            alt={project.title}
                             onClick={() => toggleModal(project, i)}
-                            key={project.title}
+                            key={i}
                         />
                         <h3 className='project-name'>{project.title}</h3>
                         <h4 className='project-tech'>{project.technology}</h4>
