@@ -304,6 +304,13 @@ input, textarea {
   box-sizing: border-box;
 }
 
+.error-message {
+  color: rgb(190, 62, 62);
+  padding: 15px 0px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
 .submit-button {
   width: 100%;
   background-color: var(--primary-color);
