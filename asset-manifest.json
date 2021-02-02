@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.dcd4884d.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.72d98581.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.72d98581.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.ababeb06.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.ababeb06.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.2b9329f3.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.2b9329f3.js.map",
     "static/css/2.ec02d681.chunk.css": "/react-portfolio/static/css/2.ec02d681.chunk.css",
@@ -15,7 +15,7 @@
     "static/css/main.dcd4884d.chunk.css.map": "/react-portfolio/static/css/main.dcd4884d.chunk.css.map",
     "static/js/2.451e1d74.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.451e1d74.chunk.js.LICENSE.txt",
     "static/media/24_chains.JPG": "/react-portfolio/static/media/24_chains.e48bb5cb.JPG",
-    "static/media/Nathan_Derenne_Resume.a1aeb5e4.pdf": "/react-portfolio/static/media/Nathan_Derenne_Resume.a1aeb5e4.pdf",
+    "static/media/Nathan_Derenne.a1aeb5e4.pdf": "/react-portfolio/static/media/Nathan_Derenne.a1aeb5e4.pdf",
     "static/media/Screenshot.png": "/react-portfolio/static/media/Screenshot.eb773a75.png",
     "static/media/index.css": "/react-portfolio/static/media/West_19-6.9b0d6ee3.jpg",
     "static/media/git_it_done.JPG": "/react-portfolio/static/media/git_it_done.da252332.JPG",
@@ -30,6 +30,6 @@
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.451e1d74.chunk.js",
     "static/css/main.dcd4884d.chunk.css",
-    "static/js/main.72d98581.chunk.js"
+    "static/js/main.ababeb06.chunk.js"
   ]
 }
