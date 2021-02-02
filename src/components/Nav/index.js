@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import pdf from '../../assests/files/Nathan_Derenne_Resume.pdf';
+import pdf from '../../assests/files/Nathan_Derenne.pdf';
 
 function Nav(props) {
 
