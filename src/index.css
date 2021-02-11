@@ -75,7 +75,7 @@ code {
 }
 
 .hero-text {
-  font-size: 18px;
+  font-size: 36px;
   margin-left: 3vw;
 }
 
@@ -117,7 +117,7 @@ code {
 .scroll-about {
   margin: auto;
   width: 23px;
-  margin-top: 35vh;
+  margin-top: 33vh;
   cursor: pointer;
 }
 
@@ -456,6 +456,14 @@ input, textarea {
 }
 
 @media screen and (min-width: 1350px){
+  .hero-name {
+    margin-left: 3vw;
+  }
+
+  .hero-text {
+    margin-left: 8vw;
+  }
+
   .about-container {
     margin-bottom: 14vh;
   }
@@ -547,6 +555,13 @@ input, textarea {
 }
 
 @media screen and (max-width: 615px){
+  .hero-name {
+    font-size: 42px;
+  }
+
+  .hero-text {
+    font-size: 30px;
+  }
 
   .project-image {
     width: 70vw;
@@ -585,6 +600,16 @@ input, textarea {
 }
 
 @media screen and (max-width: 510px){
+  .hero-name {
+    margin-left: -3vw;
+    font-size: 36px;
+  }
+
+  .hero-text {
+    margin-left: 0vw;
+    font-size: 30px;
+  }
+
   .portrait {
     width: 35vh;
   }
@@ -640,6 +665,16 @@ input, textarea {
 
   .hero-section {
     margin-left: 10vw;
+  }
+
+  .hero-name {
+    font-size: 32px;
+    margin-left: 2vw;
+  }
+
+  .hero-text {
+    font-size: 24px;
+    margin-left: 6vw;
   }
 
   .scroll-about {

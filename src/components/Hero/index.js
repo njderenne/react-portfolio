@@ -25,8 +25,8 @@ function Hero(props) {
             ></Nav>
             <div className='hero-container'>
                 <div className='vertical-center hero-section'>
-                    <span data-aos='fade-right' className='hero-hi'>Hi, my name is<h1 data-aos='fade-left' className='hero-name'>Nate Derenne</h1></span>
-                    <span className='hero-text' data-aos='fade-right'>I am a web developer from Green Bay, WI and currently living in Sun Prairie, WI.</span>
+                    <span data-aos='fade-right' className='hero-hi'><h1 data-aos='fade-left' className='hero-name'>Nate Derenne</h1></span>
+                    <span className='hero-text' data-aos='fade-right'>- Full-Stack Developer</span>
                 </div>
                 <div className='flex-row socials'>
                     <a href="https://github.com/njderenne" className="fa fa-github"></a>
