@@ -57,6 +57,7 @@ code {
 .hero {
   background-image: url(./assests/West_19-6.jpg);
   background-size: cover;
+  background-position: center;
   height: 100vh;
   color: #fff;
 }
@@ -555,6 +556,10 @@ input, textarea {
 }
 
 @media screen and (max-width: 615px){
+  .hero {
+    background-position: 70% 50%;
+  }
+
   .hero-name {
     font-size: 42px;
   }
