@@ -48,7 +48,7 @@ function Project() {
             technology: 'JavaScript, CSS, HTML, React, Node, MongoDB',
             github: 'https://github.com/njderenne/photo-port',
             application: 'https://njderenne.github.io/photo-port/',
-            description: 'This is the Oh Snap description',
+            description: 'As a user, I am able to look through the different categories of photography that has been posted and reach out the the photographer using the contact page.',
             animation: 'fade-up',
         },
         {
