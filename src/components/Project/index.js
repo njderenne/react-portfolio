@@ -25,12 +25,12 @@ function Project() {
             animation: 'fade-up',
         },
         {
-            title: 'Git it Done!',
-            locations: 'git_it_done.JPG',
-            technology: 'JavaScript, CSS, HTML',
-            github: 'https://github.com/njderenne/get-it-done',
-            application: 'https://njderenne.github.io/get-it-done/',
-            description: 'This is the Git it Done description',
+            title: 'E-commerce Shop!',
+            locations: 'e-commerce.JPG',
+            technology: 'JavaScript, CSS, HTML, MERN, Redux, PWA, JWT',
+            github: 'https://github.com/njderenne/ecommerce-shop-redux',
+            application: 'https://warm-escarpment-52913.herokuapp.com/',
+            description: 'As a user, I create an account through the signup page and after initial signup I can login to the application through a login page. When I view the home page I can see all products available for purchase. If I click on a category the list of products is updated to show only the products under that specific category. ',
             animation: 'fade-left',
         },
         {
