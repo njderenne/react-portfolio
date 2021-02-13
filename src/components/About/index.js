@@ -14,7 +14,7 @@ function About() {
                 <ul>
                     <li><span className='bold'>Languages:</span> JavaScript ES6+, CSS3, HTML5, SQL, NoSQL, Python</li>
                     <li><span className='bold'>Applications:</span> Adobe Lightroom, Adobe Photoshop, GitHub, MySQL, SQLite, MongoDB, MERN Stack, Redux, PWA</li>
-                    <li><span className='bold'>Tools:</span> Node, Express, Inquirer, Sequelize, MongoDB, Jest, bcrypt.js, Heroku, MVC, RESTful API, Context API, Global State Management, OOP, jQuery, Bootstrap, Handlebars.js, Agile, NumPy, SCIMES, NetworkX</li>
+                    <li><span className='bold'>Tools:</span> Node, Express, Inquirer, Sequelize, MongoDB, Stripe, Jest, bcrypt.js, Heroku, MVC, RESTful API, Context API, Global State Management, OOP, jQuery, Bootstrap, Handlebars.js, Agile, NumPy, SCIMES, NetworkX</li>
                 </ul>
 
                 </div>
