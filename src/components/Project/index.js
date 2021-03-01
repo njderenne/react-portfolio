@@ -7,6 +7,15 @@ function Project() {
 
     const [projects] = useState([
         {
+            title: 'wordUp',
+            locations: 'message.JPG',
+            technology: 'MERN, Websockets, Graphql, Subscriptions, PWA',
+            github: 'https://github.com/njderenne/wordUp',
+            application: 'https://fast-shelf-56121.herokuapp.com/',
+            description: 'wordUp is a real-time chat application for users to communicate with each other over the internet. The user is able to signup or login to their profile for personalized chats with other users. When on the dashboard of the application the user can select chats that they have to see messages that them and the other chat participants have made. There is a input field for the user to add a message to submit to the current selected chat. Any user can add a chat or conversation on the sidebar as well as add participants to a conversation. There is also an add a friend button that will pop up a modal to add a friend to the users account and the friends list will populate the add participant modal when selected. This application was created as a PWA allowing for seamless offline functionality.',
+            animation: 'fade-up',
+        },
+        {
             title: '24-Chains',
             locations: '24_chains.JPG',
             technology: 'JavaScript, Bootstrap, SCSS, HTML, Node, Express, MySQL',
@@ -41,15 +50,6 @@ function Project() {
             application: 'https://calm-shelf-50969.herokuapp.com/',
             description: 'This application is a responsive blog webpage used for the tech community. The user has the ability to sign up and log in. Once the user is logged in they can see other user blog posts as well as a dashboard where they can see the blog posts they have created. In the dashboard the user also can create new blog posts, edit a post they have already created or delete a created post. From the homepage or the user dashboard the user will have the ability to view all comments on a blog post and will be directed to a page with just a singular post where they can then add a new comment.',
             animation: 'fade-right',
-        },
-        {
-            title: 'Oh Snap!',
-            locations: 'oh_snap.JPG',
-            technology: 'JavaScript, CSS, HTML, React, Node, MongoDB',
-            github: 'https://github.com/njderenne/photo-port',
-            application: 'https://njderenne.github.io/photo-port/',
-            description: 'As a user, I am able to look through the different categories of photography that has been posted and reach out the the photographer using the contact page.',
-            animation: 'fade-up',
         },
         {
             title: 'Social Media API',
