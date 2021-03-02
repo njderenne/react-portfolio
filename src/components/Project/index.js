@@ -26,7 +26,7 @@ function Project() {
         },
         {
             title: 'OneStopJob',
-            locations: 'Screenshot.png',
+            locations: 'Screenshot.jpg',
             technology: 'JavaScript, HTML, CSS, Bulma',
             github: 'https://github.com/frostyausty/OneStopJob',
             application: 'https://frostyausty.github.io/OneStopJob/',
