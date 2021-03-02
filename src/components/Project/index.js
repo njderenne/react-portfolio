@@ -13,7 +13,7 @@ function Project() {
             github: 'https://github.com/njderenne/wordUp',
             application: 'https://fast-shelf-56121.herokuapp.com/',
             description: "wordUp is a real-time chat application for users to communicate with each other over the internet. The user is able to sign up or login to their profile for personalized chats with other users. When on the dashboard of the application the user can select current chats that they have, add a new chat, or delete one. There is an input field along the bottom for the user to send a message as well as add participants and view participants in the selected chat. There is also an add a friend button that will pop up a modal to add a friend to the user's account. Multiple users can be added to a single chat as long as they are in your friends list. This application was created as a PWA allowing for seamless offline functionality.",
-            animation: 'fade-up',
+            animation: 'fade-right',
         },
         {
             title: '24-Chains',
@@ -22,7 +22,7 @@ function Project() {
             github: 'https://github.com/MarynaPR/24-chains',
             application: 'https://dry-mesa-09626.herokuapp.com/',
             description: '24 Chains gets its name from the standard frisbee golf basket consisting of 24 chains. This application is a hybrid between the ability to search for a frisbee golf course and a social media page. Users can search for, save, and favorite different courses for quick reference in the future as well as posting reviews and results from there our games. This helps the community find things they both like and dislike about courses, show off they scores they were able to achieve and even find their next favorite frisbee golf course!',
-            animation: 'fade-right',
+            animation: 'fade-up',
         },
         {
             title: 'OneStopJob',
@@ -31,7 +31,7 @@ function Project() {
             github: 'https://github.com/frostyausty/OneStopJob',
             application: 'https://frostyausty.github.io/OneStopJob/',
             description: 'This web application was built on the need to localize multiple job posting from a variety of job search platforms. OneStopJob is the solution to that problem, the application pulls jobs from two prominent job search platforms. The two platforms are Adzuna and USAJobs. OneStopJob allows the user to look for jobs that may only be offered on a specific job posting database, on one application resulting in an easier and more efficent job search experience.',
-            animation: 'fade-up',
+            animation: 'fade-left',
         },
         {
             title: 'E-commerce Shop!',
@@ -40,7 +40,7 @@ function Project() {
             github: 'https://github.com/njderenne/ecommerce-shop-redux',
             application: 'https://warm-escarpment-52913.herokuapp.com/',
             description: 'As a user, I create an account through the signup page and after initial signup I can login to the application through a login page. When I view the home page I can see all products available for purchase. If I click on a category the list of products is updated to show only the products under that specific category. ',
-            animation: 'fade-left',
+            animation: 'fade-right',
         },
         {
             title: 'The Tech Blog',
@@ -49,7 +49,7 @@ function Project() {
             github: 'https://github.com/njderenne/tech-blog',
             application: 'https://calm-shelf-50969.herokuapp.com/',
             description: 'This application is a responsive blog webpage used for the tech community. The user has the ability to sign up and log in. Once the user is logged in they can see other user blog posts as well as a dashboard where they can see the blog posts they have created. In the dashboard the user also can create new blog posts, edit a post they have already created or delete a created post. From the homepage or the user dashboard the user will have the ability to view all comments on a blog post and will be directed to a page with just a singular post where they can then add a new comment.',
-            animation: 'fade-right',
+            animation: 'fade-up',
         },
         {
             title: 'Social Media API',
